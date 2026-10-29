@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: campushub
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/me
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CAMPUSHUB_ADMIN_PASSWORD
+        sync: false
