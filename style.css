@@ -18,6 +18,9 @@ body{font-size:16px}
 .row small{font-size:14px}
 .tag{font-size:12px}
 .button,.top button{font-size:15px}
+.dashboard-stat{appearance:none;width:100%;font:inherit;color:inherit;text-align:left;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
+.dashboard-stat:hover{transform:translateY(-2px);box-shadow:0 7px 18px #18275218}
+.dashboard-stat:focus-visible{outline:3px solid #817af2;outline-offset:2px}
 table{font-size:15px}
 th{font-size:14px}
 .notice{font-size:15px}
