@@ -1,4 +1,5 @@
 data.json
+data.backup-*.json
 *.log
 node_modules/
 .env
